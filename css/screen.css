@@ -101,6 +101,7 @@
 	#nav ul a {
 		display:block;
 		padding: 8px;
+		margin-right: 20px;
 	}
 	#nav ul a:hover {
 		color: #fff;
@@ -216,7 +217,7 @@
 		margin: 40px auto 0;
 		width: 280px;
 	}
-	.box_contact span.email{font-size: 12px;}
-	.box_contact span.telegram{font-size: 12px;}
+	.box_contact span.email{font-size: 16px;}
+	.box_contact span.telegram{font-size: 16px;}
 	.images_holder{width: 280px;margin: 0 auto 20px;}
 }
