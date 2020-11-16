@@ -87,11 +87,13 @@
 }
 @media only screen and (max-width : 768px) {
 	.footer-content {padding: 45px 10px 20px;}
+	/*
 	.menu_trigger {
 		display: block;
 		top: 28px;
 	}
 	#nav {display: none;padding: 0;margin: 0 0 25px;top: 20px;}
+	*/
 	#nav ul li {
 		display:block;
 		padding: 0;	
@@ -171,7 +173,7 @@
 	}
 	.box_contact span.email{font-size: 18px;}
 	.box_contact span.telegram{font-size: 18px;}
-	#nav ul a:hover, #nav ul a.active,#nav ul a{border: none;}
+	/*#nav ul a:hover, #nav ul a.active,#nav ul a{border: none;}*/
 	#wrapper.portfolio #main{padding:93px 0 0 0; }
 	.logo{margin: 0 auto 20px;font-size: 40px;		line-height: 52px;}
 }
