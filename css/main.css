@@ -102,14 +102,17 @@ body {
 }
 @media (max-width: 399px) {
   .nav-masthead-2 .nav-link {
-    display: inline-block;
     font-size: 22px;
   }
 }
 @media (max-width: 387px) {
   .nav-masthead-2 .nav-link {
-    display: inline-block;
     font-size: 20px;
+  }
+}
+@media (max-width: 378px) {
+  .nav-masthead-2 .nav-link {
+    font-size: 18px;
   }
 }
 
