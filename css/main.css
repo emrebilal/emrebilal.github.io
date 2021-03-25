@@ -33,7 +33,7 @@ body {
 }
 
 body {
-  background: url(../img/cover.jpg) no-repeat center center fixed;
+  background: url(../img/bg.jpg) no-repeat center center fixed;
   background-size: cover;
   color: #fff;
   text-align: center;
