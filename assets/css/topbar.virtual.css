@@ -57,6 +57,7 @@
   display: block;
   padding: 80px 0;
   width: 100%;
+  overflow: hidden;
 }
 
 .page-home {  

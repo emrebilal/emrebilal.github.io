@@ -1049,6 +1049,7 @@ a:hover, a:active {
 .gridder {
     position: relative;
     display: block;
+    height: 285px !important;
 }
 
 .grid-item {
@@ -1113,6 +1114,31 @@ a:hover, a:active {
     }
 }
 
+@media (max-width: 1199px) {
+    .gridder {
+        height: 240px !important;
+    }
+}
+@media (max-width: 991px) {
+    .gridder {
+        height: 533px !important;
+    }
+}
+@media (max-width: 767px) {
+    .gridder {
+        height: 883px !important;
+    }
+}
+@media (max-width: 375px) {
+    .gridder {
+        height: 800px !important;
+    }
+}
+@media (max-width: 320px) {
+    .gridder {
+        height: 676px !important;
+    }
+}
 
 /* Theme color style */
 
