@@ -80,6 +80,7 @@ body {
 }
 
 .fw-normal {
+    text-align: center;
     font-weight: 400;
 }
 

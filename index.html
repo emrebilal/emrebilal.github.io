@@ -15,6 +15,7 @@
   <link rel="stylesheet" type="text/css" href="./assets/vendor/fancybox/css/jquery.fancybox.min.css">
   <link rel="stylesheet" type="text/css" href="./assets/css/virtual.css">
   <link rel="stylesheet" type="text/css" href="./assets/css/topbar.virtual.css">
+  <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
 </head>
 <body class="theme-red">
   
@@ -27,7 +28,7 @@
     <!-- Navbar -->
     <div class="navbar navbar-expand-lg navbar-dark sticky" data-offset="500">
       <div class="container">
-        <a href="" class="navbar-brand">EB</a>
+        <a href="" class="navbar-brand">❮ EB ❯</a>
         <button class="navbar-toggler" data-toggle="collapse" data-target="#main-navbar" aria-expanded="true">
           <span class="ti-menu"></span>
         </button>
@@ -108,46 +109,119 @@
             </li>
           </ul>
         </div>
+        <div class="col-md-6 wow fadeInRight">
+          <h2 class="fw-normal">Skills</h2>
+          <div class="skills-wrapper">
+            <div class="first-set">
+              <img
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg"
+                alt=""
+                loading="lazy"
+                class="icon icon-card"
+              />
+              <img
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dotnetcore/dotnetcore-original.svg"
+                alt=""
+                loading="lazy"
+                class="icon icon-card"
+              />
+              <img
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original-wordmark.svg"
+                alt=""
+                loading="lazy"
+                class="icon icon-card"
+              />
+              <img
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg"
+                alt=""
+                loading="lazy"
+                class="icon icon-card"
+              />
+              <img
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg"
+                alt=""
+                loading="lazy"
+                class="icon icon-card"
+              />
+              <img
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original-wordmark.svg"
+                alt=""
+                loading="lazy"
+                class="icon icon-card"
+              />
+              <img
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
+                alt=""
+                loading="lazy"
+                class="icon icon-card"
+              />
+              <img
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg"
+                alt=""
+                loading="lazy"
+                class="icon icon-card"
+              />
+              <img
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/microsoftsqlserver/microsoftsqlserver-plain-wordmark.svg"
+                alt=""
+                loading="lazy"
+                class="icon icon-card"
+              />
+              <img
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original-wordmark.svg"
+                alt=""
+                loading="lazy"
+                class="icon icon-card"
+              />
+              <img
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original-wordmark.svg"
+                alt=""
+                loading="lazy"
+                class="icon icon-card"
+              />
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </div>
   
   <!-- Portfolio page -->
   <div class="vg-page page-portfolio" id="portfolio">
-    <div class="container">
+    <div class="projects">
       <div class="text-center wow">
         <div class="badge badge-subhead">My Works</div>
       </div>
       <h1 class="text-center fw-normal wow">Some things I do</h1>
 
-      <div class="gridder">
-        <div class="grid-item">
-          <div class="img-place" data-src="./assets/img/work/work-1.png" data-fancybox data-caption="<h5 class='fg-theme'>To-Do App</h5> <p>React JS</p>">
-            <img src="./assets/img/work/work-1.png" alt="">
-            <div class="img-caption">
-              <h5 class="fg-theme">To-Do App</h5>
-              <p>React JS</p>
-            </div>
-          </div>
+      <div class="projects-container">
+        <div class="project-container project-card">
+          <img
+            src="assets/img/work/work-1.png"
+            alt="expense-tracker"
+            loading="lazy"
+            class="project-pic"
+          />
+          <h3 class="project-title">To-Do App</h3>
+          <p class="project-details">
+            Todo List with using React JS
+          </p>
+          <a href="https://github.com/emrebilal/React-Todo-App" target="_blank" class="project-link">Check it Out</a>
         </div>
-        <div class="grid-item">
-          <div class="img-place" data-src="./assets/img/work/work-2.jpg" data-fancybox data-caption="<h5 class='fg-theme'>Phone Book App</h5> <p>C#, ASP.NET, SQL</p>">
-            <img src="./assets/img/work/work-2.jpg" alt="">
-            <div class="img-caption">
-              <h5 class="fg-theme">Phone Book App</h5>
-              <p>C#, ASP.NET, SQL</p>
-            </div>
-          </div>
+        <div class="project-container project-card">
+          <img
+            src="assets/img/work/work-2.png"
+            alt="netflic-clone"
+            loading="lazy"
+            class="project-pic"
+          />
+          <h3 class="project-title">CRUD App</h3>
+          <p class="project-details">
+            React Typescript CRUD example 
+          </p>
+          <a href="https://github.com/emrebilal/React-Crud-App-with-Typescript" target="_blank" class="project-link">Check it Out</a>
         </div>
-        <div class="grid-item">
-          <div class="img-place" data-src="./assets/img/work/work-3.png" data-fancybox data-caption="<h5 class='fg-theme'>Weather Status Page (Arduino Web Server)</h5> <p>C++, AJAX, HTML</p>">
-            <img src="./assets/img/work/work-3.png" alt="">
-            <div class="img-caption">
-              <h5 class="fg-theme">Weather Status Page (Arduino)</h5>
-              <p>C++, AJAX, HTML</p>
-            </div>
-          </div>
-        </div>
+      </div>
       </div> <!-- End gridder -->
       <div class="text-center wow fadeInUp">
         <a href="https://github.com/emrebilal" class="btn btn-theme" target="_blank">More on GitHub</a>

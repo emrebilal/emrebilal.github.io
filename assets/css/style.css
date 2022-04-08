@@ -1,0 +1,95 @@
+
+/* Projects section */
+.projects {
+    background-color: var(--bg-color);
+    padding: 32px 0;
+    margin-top: 2rem;
+  }
+
+.project-pic {
+    width: 65%;
+    height: 60%;
+    margin-bottom: 5px;
+}
+
+.projects-container {
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.projects-title {
+text-align: center;
+margin-bottom: 1rem;
+}
+
+.project-container {
+text-align: center;
+width: 21.875rem;
+padding: 1rem;
+}
+
+.project-container p {
+padding: 0.4rem;
+}
+
+.project-title {
+margin-bottom: var(--bottom-margin);
+}
+
+.project-details {
+margin-bottom: var(--bottom-margin);
+}
+
+.project-card {
+    background-color: #fff;
+    border-radius: 11px;
+    box-shadow: 0 3px 10px #8b8eaf;
+    padding: 20px;
+    margin: 10px;
+}
+
+/* Skills section */
+.first-set {
+    text-align: center;
+}
+
+.skills-wrapper img {
+    padding: 1.25rem;
+}
+  
+.icon {
+    width: 5.875rem;
+    height: 5.25rem;
+}
+
+.icon-card {
+    background-color: #fff;
+    border-radius: 11px;
+    box-shadow: 0 3px 10px #8b8eaf;
+    padding: 20px;
+    margin: 10px;
+}
+
+/* Media queries for responsiveness */
+@media screen and (max-width: 720px) {
+
+    .projects-container {
+        flex-direction: column;
+    }
+
+    .project-container {
+        width: 20.875rem;
+    }
+}
+  
+@media screen and (max-width: 420px) {
+
+    .project-container {
+        width: 17.875rem;
+    }
+
+    .contact-form-container {
+        max-width: 17.75rem;
+    }
+}
