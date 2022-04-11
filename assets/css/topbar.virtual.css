@@ -57,6 +57,7 @@
   display: block;
   width: 100%;
   overflow: hidden;
+  padding: 50px 0;
 }
 
 .page-home {  
@@ -458,7 +459,6 @@
   padding: 25px 0;
   background-color: #171925;
   color: #9FA2AB;
-  margin-top: 2.5rem;
 }
 
 .footer-info {
